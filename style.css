@@ -1,0 +1,362 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    /* background-color: #fff; */
+    background-color: white;
+    width: 100%;
+    height: 6em;
+}
+.head{
+    width: 50%;
+    height: 3em;
+    display:flex;
+}
+.logo img{
+    margin-left:207px ;
+    width: 237px;
+    height: 24px;
+    vertical-align: middle;
+    margin-top: 34px;
+    cursor: pointer;  
+}
+.explore{
+    display: flex;
+}
+.explore h5 {
+    margin-left: 800px;
+    margin-top: 41px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.explore i{
+    margin-top: 41px;
+    margin-left: 10px;
+}
+.section-1{
+    width: 75px;
+    height: 33px;
+    display: flex;
+}
+.section-1 img{
+    position: absolute;
+    width: 100%;
+    height: 614px;
+    filter: brightness(40%);    
+}
+.intro h3{
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: white;
+    font-size: 36px;
+    margin-left: 25%;
+}
+.section-2{
+    width: 1453px;
+    height: 403px;
+}
+.section-2 .desc p{
+    margin-left:500px;
+    width: 538px;
+    height: 64px;
+    margin-top: 170px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.list-img{
+    position: relative;
+    display: flex;
+    margin-left: 520px;
+}
+.list-img img{
+    width: 150px;
+    height: 75px;
+}
+.search{
+    position: relative;
+    margin-top: 36px;
+    margin-left: 420px;
+}
+.search_icon{
+    position: absolute;
+    font-size: 1.3rem;
+    left: 45px;
+    top: 35px;
+    color: gray;
+    font-weight: lighter;
+}
+.search input{
+    text-align: center;
+    width: 476px;
+    border-radius: 6px;
+    height: 88px;
+    font-size: 16px;
+    color: black;
+    border:none ;
+}
+.search button{
+    width: 184px;
+    height: 88px;
+    border-radius: 6px;
+    background-color: orangered;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.read_more{
+    position: relative;
+    margin-top: 88px;
+    margin-left: 538px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.section-3{
+    position:absolute;
+    width: 1519px;
+    height: 415px;
+    background-color: #1b2c5a;
+}
+.picks h4{
+    margin-left: 215px;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #fff;
+    font-weight: lighter;
+}
+.pics{
+    margin-top: 66px;
+    margin-left: 217px;
+    width: 530px;
+    height: 272px;
+    display: flex;  
+    cursor: pointer; 
+}
+img{
+    width: 530px;
+    height: 272px;
+    padding-right: 24px;
+    object-fit: cover;
+    /* transition: background-size 0.1s ease-out 0s; */
+}
+/* .img:hover{
+    transform: object-fit(fill);
+} */
+.first h3{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 22px;
+    width: 475px;
+    font-weight: lighter;
+}
+.first p{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 22px;
+    width: 475px;
+    font-weight: lighter;
+}
+.second h3{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+.textover{
+    height: 150px;
+    width: 250px;
+    position: absolute;
+}
+figcaption{
+    position: relative;
+    margin-top: -241px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    background-color: #1ace90;
+    width: 276px;
+    height: 48px;
+}
+.second h3{
+    color: grey;
+}
+.section-4{
+    width: 1519px;
+    height: 530px   ;
+    margin-top: -85px;
+    background-color: white;
+}
+/* .sec-4-intro{
+    
+} */
+.sec-4-intro h4{
+    margin-top: 500px;
+    margin-left: 459px;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+    color: black;
+}
+.sec-4-intro2 p{   
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    color: black;
+}
+.whos_looking_for_slider{
+    display: flex;
+    margin-left: 307px;
+    margin-top: 22px;
+}
+.whos_looking_item{
+    margin-left: 91px;
+    justify-content: space-between;
+}
+.whos_looking_item hr{
+    margin-left: -33px
+}
+.whos_looking_item img{
+    width: 149px;
+    height: 100px;
+}
+.whos_looking_item span{
+    margin-left: -8px;
+    color: gray;
+}
+.whos_looking_item h5{
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+.whos_looking_item a{
+    text-decoration: none;
+    margin-left:40px ;
+}
+.popular-topics{
+    width: 900px;
+    height: 600px;
+    margin-left: 200px;
+}
+.popular-topics-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 15px;
+}
+.thumbnail{
+    width: 338px;
+    height: 193px;
+    filter: brightness(60%);
+}
+.topics-desc{
+    position: relative;
+}
+.title{
+    position: absolute;
+    top:28px;
+    color: #fff;
+    background-color: #602b6f;
+}
+.container{
+    position: absolute;
+    top:50px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 15px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.more-topics{
+    margin-top: 55px;
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 40px;
+}
+.more-topics h3{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #1b2c5a;
+    margin-right: 50px;
+}
+.more-topics a{
+    margin-top:15px;
+    text-decoration: none;
+    margin-right: 51px;
+    font-family: sans-serif;
+    font-weight:lighter;
+    color: #1b2c5a;
+    font-size: 15px;
+}
+
+.sec-6{
+    width: 100%;
+    height: 160px;
+}
+.sec-6 img{
+    margin-left:641px ;
+}
+.highlight p{
+    font-family: sans-serif;
+    line-height: 17px;
+    margin-left: 675px;
+    font-size: 12px;
+}
+.sec-7{
+    background-color: #31a1cb;
+    width: 100%;
+    height: 205px;
+}
+.social-media{
+    font-size: 28px;
+    color: white;
+    margin-left: 665px; 
+    top: 40px;
+}
+.social-media i{
+    margin-left: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 58px;
+    list-style: none; 
+    display: flex;
+    align-items: center;
+    width: initial;
+    justify-content: space-evenly;
+}
+.footer li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.copyright p{
+    margin-top: 30px;
+    margin-left: 620px;
+    color: #fff;
+}
+.sec-8{
+    height: 150px;
+}
+.sec-8 hr{
+    width: 259px;
+    color: gray;
+}
+.sec-8 p{
+    margin-left: 630px;
+    margin-top: -6px;
+    color: gray;
+    text-transform: uppercase;
+}
